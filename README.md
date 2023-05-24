@@ -1,3 +1,3 @@
-# challenge_gold
+# challenge_platinum
 
-Project tentang challenge gold binar yaitu teks processing (cleansing)
+Sentimen analisis data review redbus
