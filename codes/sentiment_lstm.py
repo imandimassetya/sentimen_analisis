@@ -8,6 +8,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.utils import pad_sequences
 
+#coba
+
 def analyze_sentiment_lstm(vocab_length, maxlen, X_train, y_train, X_test, y_test):
     embedding_dim = 50
 
