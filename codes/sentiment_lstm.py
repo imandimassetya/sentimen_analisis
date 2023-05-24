@@ -1,3 +1,4 @@
+from tensorflow import keras
 from keras.preprocessing.text import one_hot, Tokenizer
 from keras.models import Sequential
 from keras.layers.core import Activation, Dropout, Dense
@@ -7,8 +8,6 @@ from keras.backend import clear_session
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.utils import pad_sequences
-
-#coba
 
 def analyze_sentiment_lstm(vocab_length, maxlen, X_train, y_train, X_test, y_test):
     embedding_dim = 50

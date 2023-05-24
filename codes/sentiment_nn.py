@@ -1,3 +1,4 @@
+from tensorflow import keras
 from keras.preprocessing.text import one_hot, Tokenizer
 from keras.models import Sequential
 from keras.layers.core import Activation, Dropout, Dense
